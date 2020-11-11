@@ -93,7 +93,7 @@
 				var $thumbs = $('.thumbnails');
 
 				if ($thumbs.length > 0)
-					$thumbs.poptrox({
+			/*		$thumbs.poptrox({
 						onPopupClose: function() { $body.removeClass('is-covered'); },
 						onPopupOpen: function() { $body.addClass('is-covered'); },
 						baseZIndex: 10001,
@@ -105,7 +105,7 @@
 						usePopupDefaultStyling: false,
 						windowMargin: (skel.breakpoint('small').active ? 5 : 50)
 					});
-
+*/
 			});
 
 		// Initial scroll.
